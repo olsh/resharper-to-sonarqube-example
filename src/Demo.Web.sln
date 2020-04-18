@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27703.2035
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30002.166
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo.Web", "Demo.Web\Demo.Web.csproj", "{EC64C0B3-E53C-40BD-B0EC-1C92733F2C18}"
 EndProject
@@ -9,6 +9,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo.Library", "Demo.Librar
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{51494A5E-6CAF-47A5-AE2D-023F53F60BDC}"
 	ProjectSection(SolutionItems) = preProject
+		..\appveyor.yml = ..\appveyor.yml
 		..\build.cake = ..\build.cake
 		..\README.md = ..\README.md
 	EndProjectSection
